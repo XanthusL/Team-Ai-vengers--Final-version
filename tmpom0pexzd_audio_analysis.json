@@ -1,0 +1,101 @@
+{
+  "audio_path": "C:\\Users\\lwinh\\AppData\\Local\\Temp\\tmpom0pexzd.wav",
+  "timestamp": "2026-05-18T16:38:32.077756",
+  "acoustic_features": {
+    "duration_s": 3.96,
+    "rms_mean": 0.00207,
+    "rms_max": 0.0177,
+    "rms_std": 0.00318,
+    "peak_ratio": 8.52,
+    "zcr_mean": 0.1068,
+    "centroid_hz": 2342.6,
+    "rolloff_hz": 4611.1,
+    "hf_ratio": 0.1877,
+    "onset_count": 11,
+    "onset_density": 2.778,
+    "mfcc_means": [
+      -538.45,
+      88.49,
+      -20.06,
+      22.1,
+      33.67,
+      -1.34,
+      2.44,
+      13.9,
+      9.25,
+      5.27,
+      2.35,
+      0.67,
+      -2.9
+    ],
+    "is_impulsive": true,
+    "is_sustained": false,
+    "is_crackling": false
+  },
+  "rule_pre_class": {
+    "label": "normal_speech",
+    "confidence": 40.0
+  },
+  "whisper": {
+    "text": "",
+    "distress_keywords": [],
+    "is_distress": false,
+    "distress_count": 0
+  },
+  "ollama_analysis": {
+    "primary_event_type": "normal_activity",
+    "confidence": 100,
+    "scene_summary": "Silence detected",
+    "detected_sounds": [],
+    "has_distress_signals": false,
+    "has_weapon_audio": false,
+    "has_explosion": false,
+    "has_fire_audio": false,
+    "is_panic_call": false,
+    "threat_rationale": "No threat detected",
+    "zone_guess": "public_space",
+    "notes": "",
+    "transcript_text": "",
+    "distress_keywords": []
+  },
+  "signals": [
+    {
+      "type": "motion_detection",
+      "confidence": 100.0,
+      "timestamp": "2026-05-18 16:38:27.895785",
+      "location": "tmpom0pexzd",
+      "metadata": {
+        "scene_summary": "Silence detected",
+        "detected_sounds": [],
+        "transcript": "",
+        "distress_keywords": [],
+        "has_distress": false,
+        "has_weapon_audio": false,
+        "has_explosion": false,
+        "has_fire_audio": false,
+        "is_panic_call": false,
+        "threat_rationale": "No threat detected",
+        "frequency": "low",
+        "duration": "long"
+      }
+    }
+  ],
+  "threat_level": "low",
+  "recommendation": {
+    "action": "CONTINUE PASSIVE MONITORING",
+    "urgency": "monitor",
+    "visual_cue": "\ud83d\udfe2 GREEN",
+    "requires_human_approval": false,
+    "confidence": 100.0,
+    "alternative": "environmental trigger (animal, weather)"
+  },
+  "temporal": {
+    "window_minutes": 1440,
+    "requires_immediate": false,
+    "sequence_detected": false,
+    "event_count": 1,
+    "pattern_forming": false
+  },
+  "attack_alert": null,
+  "officer_briefing": "Officer, we've received a silence detection alert, indicating no audible sounds have been picked up by our sensors. Confidence in this reading is high, with no indication of a potential threat. The transcript remains empty and no distress signals or panic calls were received. Our immediate action is to continue passive monitoring, awaiting any further developments that may alter the current status."
+}

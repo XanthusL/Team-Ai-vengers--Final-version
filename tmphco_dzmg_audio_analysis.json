@@ -1,0 +1,109 @@
+{
+  "audio_path": "C:\\Users\\lwinh\\AppData\\Local\\Temp\\tmphco_dzmg.wav",
+  "timestamp": "2026-05-18T13:53:16.746206",
+  "acoustic_features": {
+    "duration_s": 3.06,
+    "rms_mean": 0.00187,
+    "rms_max": 0.0075,
+    "rms_std": 0.0019,
+    "peak_ratio": 4.03,
+    "zcr_mean": 0.1235,
+    "centroid_hz": 2467.2,
+    "rolloff_hz": 4810.7,
+    "hf_ratio": 0.2161,
+    "onset_count": 8,
+    "onset_density": 2.614,
+    "mfcc_means": [
+      -532.55,
+      92.79,
+      -5.99,
+      15.02,
+      24.46,
+      -1.1,
+      -2.65,
+      6.72,
+      4.33,
+      -0.01,
+      -4.4,
+      1.18,
+      -2.75
+    ],
+    "is_impulsive": false,
+    "is_sustained": false,
+    "is_crackling": false
+  },
+  "rule_pre_class": {
+    "label": "silence",
+    "confidence": 90.0
+  },
+  "whisper": {
+    "text": "",
+    "distress_keywords": [],
+    "is_distress": false,
+    "distress_count": 0
+  },
+  "ollama_analysis": {
+    "primary_event_type": "glass_break",
+    "confidence": 80,
+    "scene_summary": "A loud, sharp sound was detected followed by a brief pause and then another sharp sound.",
+    "detected_sounds": [
+      "loud, sharp sound",
+      "brief pause",
+      "sharp sound"
+    ],
+    "has_distress_signals": false,
+    "has_weapon_audio": false,
+    "has_explosion": false,
+    "has_fire_audio": false,
+    "is_panic_call": false,
+    "threat_rationale": "The sudden and repetitive nature of the sounds suggests a potential security breach.",
+    "zone_guess": "low_security",
+    "notes": "The audio features suggest an impulsive event, but the lack of other distress keywords or weapon audio reduces confidence.",
+    "transcript_text": "",
+    "distress_keywords": []
+  },
+  "signals": [
+    {
+      "type": "forced_entry",
+      "confidence": 80.0,
+      "timestamp": "2026-05-18 13:53:12.986615",
+      "location": "tmphco_dzmg",
+      "metadata": {
+        "scene_summary": "A loud, sharp sound was detected followed by a brief pause and then another sharp sound.",
+        "detected_sounds": [
+          "loud, sharp sound",
+          "brief pause",
+          "sharp sound"
+        ],
+        "transcript": "",
+        "distress_keywords": [],
+        "has_distress": false,
+        "has_weapon_audio": false,
+        "has_explosion": false,
+        "has_fire_audio": false,
+        "is_panic_call": false,
+        "threat_rationale": "The sudden and repetitive nature of the sounds suggests a potential security breach.",
+        "frequency": "low",
+        "duration": "long"
+      }
+    }
+  ],
+  "threat_level": "high",
+  "recommendation": {
+    "action": "DEPLOY NEAREST GUARD FOR VERIFICATION",
+    "urgency": "immediate",
+    "visual_cue": "\ud83d\udd34 RED",
+    "requires_human_approval": false,
+    "confidence": 80.0,
+    "alternative": "delivery person or maintenance staff"
+  },
+  "temporal": {
+    "window_minutes": 5,
+    "requires_immediate": true,
+    "sequence_detected": false,
+    "event_count": 1,
+    "pattern_forming": false
+  },
+  "attack_alert": null,
+  "officer_briefing": "Officer, we have received a report of two sharp, loud sounds followed by a brief pause. Our confidence level is moderate due to the repetitive nature of the sounds and the absence of other distress signals. The transcript remains blank, indicating no voice communication was detected. Immediate action requires deploying the nearest guard for verification and to assess the situation."
+}

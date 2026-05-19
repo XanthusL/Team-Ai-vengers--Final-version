@@ -1,0 +1,101 @@
+{
+  "audio_path": "C:\\Users\\lwinh\\AppData\\Local\\Temp\\tmplp89ohpg.wav",
+  "timestamp": "2026-05-18T16:31:24.148187",
+  "acoustic_features": {
+    "duration_s": 2.39,
+    "rms_mean": 0.06008,
+    "rms_max": 0.1195,
+    "rms_std": 0.03431,
+    "peak_ratio": 1.99,
+    "zcr_mean": 0.1268,
+    "centroid_hz": 1490.0,
+    "rolloff_hz": 2771.4,
+    "hf_ratio": 0.0007,
+    "onset_count": 9,
+    "onset_density": 3.767,
+    "mfcc_means": [
+      -263.28,
+      244.88,
+      -118.28,
+      12.07,
+      43.86,
+      -55.14,
+      13.09,
+      22.78,
+      -33.32,
+      12.28,
+      11.72,
+      -21.82,
+      13.29
+    ],
+    "is_impulsive": false,
+    "is_sustained": false,
+    "is_crackling": false
+  },
+  "rule_pre_class": {
+    "label": "forced_entry",
+    "confidence": 65.0
+  },
+  "whisper": {
+    "text": "",
+    "distress_keywords": [],
+    "is_distress": false,
+    "distress_count": 0
+  },
+  "ollama_analysis": {
+    "primary_event_type": "forced_entry",
+    "confidence": 65.0,
+    "scene_summary": "Forced entry detected",
+    "detected_sounds": [],
+    "has_distress_signals": false,
+    "has_weapon_audio": false,
+    "has_explosion": false,
+    "has_fire_audio": false,
+    "is_panic_call": false,
+    "threat_rationale": "Low confidence forced entry, no other threat indicators present",
+    "zone_guess": "low_security",
+    "notes": "",
+    "transcript_text": "",
+    "distress_keywords": []
+  },
+  "signals": [
+    {
+      "type": "forced_entry",
+      "confidence": 65.0,
+      "timestamp": "2026-05-18 16:31:20.243332",
+      "location": "tmplp89ohpg",
+      "metadata": {
+        "scene_summary": "Forced entry detected",
+        "detected_sounds": [],
+        "transcript": "",
+        "distress_keywords": [],
+        "has_distress": false,
+        "has_weapon_audio": false,
+        "has_explosion": false,
+        "has_fire_audio": false,
+        "is_panic_call": false,
+        "threat_rationale": "Low confidence forced entry, no other threat indicators present",
+        "frequency": "low",
+        "duration": "long"
+      }
+    }
+  ],
+  "threat_level": "high",
+  "recommendation": {
+    "action": "DEPLOY NEAREST GUARD FOR VERIFICATION",
+    "urgency": "immediate",
+    "visual_cue": "\ud83d\udd34 RED",
+    "requires_human_approval": false,
+    "confidence": 65.0,
+    "alternative": "delivery person or maintenance staff"
+  },
+  "temporal": {
+    "window_minutes": 5,
+    "requires_immediate": true,
+    "sequence_detected": false,
+    "event_count": 1,
+    "pattern_forming": false
+  },
+  "attack_alert": null,
+  "officer_briefing": "Officer, we have a reported forced entry at the scene. The audio evidence suggests a low-confidence forced entry with no other threat indicators present, but we cannot rule out the possibility of an intruder. The whisper transcript is empty and there are no distress signals or panic calls to indicate any immediate danger. Our immediate action is to deploy the nearest guard for verification and to proceed with caution while awaiting further instructions from HQ."
+}
